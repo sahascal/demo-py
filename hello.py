@@ -1,3 +1,4 @@
+# first python code
 def say_hi(name='Sam'):
     if name =='':
         print("You didn't enter a name")
