@@ -1,5 +1,8 @@
 #swap two variables without using arithmetic operations
 import math
+import random
+import datetime
+
 a=2
 b="good"
 print("| = = = = = = = = = = = = = = = = = = = |")
@@ -26,6 +29,7 @@ print("| = = = = = = = = = = = = = = = = = = = |")
 
 #understand trunc, floor and ceil for numbers
 a=-2.8
+print("| = = = = = = = = = = = = = = = = = = = |")
 print("trunc of -2.8:",math.trunc(a)) 
 print("floor of -2.8:",math.floor(a)) 
 print("ceil of -2.8:",math.ceil(a))
@@ -34,11 +38,30 @@ print("\n")
 print("trunc of 1.5:",math.trunc(b)) 
 print("floor of 1.5:",math.floor(b)) 
 print("ceil of 1.5:",math.ceil(b))
+print("| = = = = = = = = = = = = = = = = = = = |")
 
 #temp conversion from F to C
 blrTempF = 78
 k=round(5/9,4); 
 blrTempC=(blrTempF-32)*k #math formula for F to C conversion
-print("\n")
+print("| = = = = = = = = = = = = = = = = = = = |")
 print("BLR temp in Fahrenheit:", blrTempF, "and in Celcius:", blrTempC)
+print("| = = = = = = = = = = = = = = = = = = = |")
+
+
+#random number program
+i=6
+print("| = = = = = = = = = = = = = = = = = = = |")
+print(random.seed())
+print(random.random())
+print(random.randint(10,50))
+print(random.randint(10,50))
+print(random.randint(10,50))
+print(random.randint(10,50))
+print(random.randint(10,50))
+print("| = = = = = = = = = = = = = = = = = = = |")
+
+
+
+
 
